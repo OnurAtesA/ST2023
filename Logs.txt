@@ -1,0 +1,1888 @@
+ONUR@DESKTOP-A0NUOL8 MINGW64 /tmp
+$ cd ..
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /
+$ dir
+LICENSE.txt        cmd  git-bash.exe  proc          unins000.exe
+ReleaseNotes.html  dev  git-cmd.exe   tmp           unins000.msg
+bin                etc  mingw64       unins000.dat  usr
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /
+$ cd ..
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /
+$ dir
+LICENSE.txt        cmd  git-bash.exe  proc          unins000.exe
+ReleaseNotes.html  dev  git-cmd.exe   tmp           unins000.msg
+bin                etc  mingw64       unins000.dat  usr
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /
+$ cd c:/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c
+$ cd tmp/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp
+$ dir
+ChromeSetup.exe  ST2023  ndp472-kb4054531-web.exe  tiptoi_Manager_Installer.exe
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp
+$ cd ST2023/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023
+$ git init
+Initialized empty Git repository in C:/tmp/ST2023/.git/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Witz-Folder/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git add Witze.txt
+fatal: pathspec 'Witze.txt' did not match any files
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ cd Witz-Folder/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/Witz-Folder (master)
+$ git add Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/Witz-Folder (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Witze.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/Witz-Folder (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Witze.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/Witz-Folder (master)
+$ git push https://github.com/OnurAtesA/ST2023.git
+error: src refspec refs/heads/master does not match any
+error: failed to push some refs to 'https://github.com/OnurAtesA/ST2023.git'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/Witz-Folder (master)
+$ cd ..
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git pu
+pull   push
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git pu
+pull   push
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git push
+.git/        Witz-Folder/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git push
+.git/        Witz-Folder/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git push https://github.com/OnurAtesA/ST2023.git
+error: src refspec refs/heads/master does not match any
+error: failed to push some refs to 'https://github.com/OnurAtesA/ST2023.git'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git clone https://github.com/OnurAtesA/ST2023.git
+Cloning into 'ST2023'...
+warning: You appear to have cloned an empty repository.
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git delete
+git: 'delete' is not a git command. See 'git --help'.
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git describe
+FETCH_HEAD   HEAD
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git describe
+FETCH_HEAD   HEAD
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git describe
+FETCH_HEAD   HEAD
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git describe
+FETCH_HEAD   HEAD
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git remote
+add            get-url        prune          remove         rename         set-branches   set-head       set-url        show           update
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git remote
+add            get-url        prune          remove         rename         set-branches   set-head       set-url        show           update
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git remote
+add            get-url        prune          remove         rename         set-branches   set-head       set-url        show           update
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git remote
+add            get-url        prune          remove         rename         set-branches   set-head       set-url        show           update
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git mv Witz-Folder/ ST2023/
+Rename from 'Witz-Folder' to 'ST2023/Witz-Folder' failed. Should I try again? (y/n) y
+Rename from 'Witz-Folder' to 'ST2023/Witz-Folder' failed. Should I try again? (y/n) y
+Rename from 'Witz-Folder' to 'ST2023/Witz-Folder' failed. Should I try again? (y/n) n
+fatal: renaming 'Witz-Folder' failed: Permission denied
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git rm Witz-Folder/
+fatal: not removing 'Witz-Folder/' recursively without -r
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ dir
+ST2023  Witz-Folder
+[master (root-commit) fc7568c] Witze.txt geändert und alter ST2023 Ordner gelöscht
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Witz-Folder/Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ dir
+ST2023  Witz-Folder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ST2023/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git remote remove origin
+error: No such remote: 'origin'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ git remote remove master
+error: No such remote: 'master'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ dir
+ST2023  Witz-Folder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ trash .git
+bash: trash: command not found
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023 (master)
+$ rm -fr .git
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023
+$ cd ST2023/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ dir
+Witz-Folder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Witz-Folder/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git commit -m "Neuer Ordner und Textdatei hinzugefügt"
+[main (root-commit) 9b5644c] Neuer Ordner und Textdatei hinzugefügt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Witz-Folder/Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git push origin <master>
+bash: syntax error near unexpected token `newline'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 293 bytes | 146.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+ * [new branch]      main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ cd Witz-Folder/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+[1]+  Stopped                 vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Witze.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Witze.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git pu
+pull   push
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push origin
+HEAD          main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push origin
+HEAD          main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push origin main
+Everything up-to-date
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Witze.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "Erster Witz hinzugefügt"
+[main 21b9f1d] Erster Witz hinzugefügt
+ 1 file changed, 1 insertion(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 465 bytes | 232.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   9b5644c..21b9f1d  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 700 bytes | 21.00 KiB/s, done.
+From https://github.com/OnurAtesA/ST2023
+   21b9f1d..f203c89  main       -> origin/main
+Updating 21b9f1d..f203c89
+Fast-forward
+ Infodatei | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Infodatei
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ cd ..
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ vi Infodatei
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Infodatei
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git commit -m "Nach Pull in die Infodatei Datum hinzugefügt"
+[main 50a0909] Nach Pull in die Infodatei Datum hinzugefügt
+ 1 file changed, 1 insertion(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 344 bytes | 172.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   f203c89..50a0909  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ cd Witz-Folder/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ rmdir WeitereWitze.txt
+rmdir: failed to remove 'WeitereWitze.txt': No such file or directory
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ mkdir WeitereWitze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+WeitereWitze.txt  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add WeitereWitze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+WeitereWitze.txt  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add WeitereWitze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ cd ..
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git status -s
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git log
+commit 50a090965486860e075eb61c515d60222ffbb50e (HEAD -> main, origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+    Nach Pull in die Infodatei Datum hinzugefügt
+
+commit f203c899baea390c0ef2f251cfdae8e439abdbce
+Author: OnurAtesA <76074752+OnurAtesA@users.noreply.github.com>
+Date:   Sun Jun 25 21:59:59 2023 +0200
+
+    Create Infodatei
+
+    Über Browser erstellt
+
+commit 21b9f1d2fc64d2c5c290198651d2a5e71b6cf40b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:57:11 2023 +0200
+
+    Erster Witz hinzugefügt
+
+commit 9b5644cb9a9245d3b681e46eb125a4ea80f256c4
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:50:39 2023 +0200
+
+    Neuer Ordner und Textdatei hinzugefügt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023 (main)
+$ cd Witz-Folder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ notepad weitere Witze
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        weitere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git log
+commit 50a090965486860e075eb61c515d60222ffbb50e (HEAD -> main, origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+    Nach Pull in die Infodatei Datum hinzugefügt
+
+commit f203c899baea390c0ef2f251cfdae8e439abdbce
+Author: OnurAtesA <76074752+OnurAtesA@users.noreply.github.com>
+Date:   Sun Jun 25 21:59:59 2023 +0200
+
+    Create Infodatei
+
+    Über Browser erstellt
+
+commit 21b9f1d2fc64d2c5c290198651d2a5e71b6cf40b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:57:11 2023 +0200
+
+    Erster Witz hinzugefügt
+
+commit 9b5644cb9a9245d3b681e46eb125a4ea80f256c4
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:50:39 2023 +0200
+
+    Neuer Ordner und Textdatei hinzugefügt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git dif
+git: 'dif' is not a git command. See 'git --help'.
+
+The most similar commands are
+        diff
+        config
+        difftool
+        init
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git diff
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        weitere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git dif
+git: 'dif' is not a git command. See 'git --help'.
+
+The most similar commands are
+        diff
+        config
+        difftool
+        init
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add weitere.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   weitere.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git diff
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "Weitere Text-Datei hinzugefügt"
+[main f238251] Weitere Text-Datei hinzugefügt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Witz-Folder/weitere.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ rm weitere.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    weitere.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    weitere.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git log
+commit f238251be4707782eb8bbf3b1807a3e29d4c9f9b (HEAD -> main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:20:34 2023 +0200
+
+    Weitere Text-Datei hinzugefügt
+
+commit 50a090965486860e075eb61c515d60222ffbb50e (origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+    Nach Pull in die Infodatei Datum hinzugefügt
+
+commit f203c899baea390c0ef2f251cfdae8e439abdbce
+Author: OnurAtesA <76074752+OnurAtesA@users.noreply.github.com>
+Date:   Sun Jun 25 21:59:59 2023 +0200
+
+    Create Infodatei
+
+    Über Browser erstellt
+
+commit 21b9f1d2fc64d2c5c290198651d2a5e71b6cf40b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:57:11 2023 +0200
+
+    Erster Witz hinzugefügt
+
+commit 9b5644cb9a9245d3b681e46eb125a4ea80f256c4
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:50:39 2023 +0200
+
+    Neuer Ordner und Textdatei hinzugefügt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push origin
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 389 bytes | 389.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   50a0909..f238251  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    weitere.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push
+Everything up-to-date
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    weitere.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git log
+commit f238251be4707782eb8bbf3b1807a3e29d4c9f9b (HEAD -> main, origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:20:34 2023 +0200
+
+    Weitere Text-Datei hinzugefügt
+
+commit 50a090965486860e075eb61c515d60222ffbb50e
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+    Nach Pull in die Infodatei Datum hinzugefügt
+
+commit f203c899baea390c0ef2f251cfdae8e439abdbce
+Author: OnurAtesA <76074752+OnurAtesA@users.noreply.github.com>
+Date:   Sun Jun 25 21:59:59 2023 +0200
+
+    Create Infodatei
+
+    Über Browser erstellt
+
+commit 21b9f1d2fc64d2c5c290198651d2a5e71b6cf40b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:57:11 2023 +0200
+
+    Erster Witz hinzugefügt
+
+commit 9b5644cb9a9245d3b681e46eb125a4ea80f256c4
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:50:39 2023 +0200
+
+    Neuer Ordner und Textdatei hinzugefügt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "Weitere Text-Datei gelöscht"
+[main fa4e694] Weitere Text-Datei gelöscht
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 Witz-Folder/weitere.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   f238251..fa4e694  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ mkdir NewFolder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ notepad Test.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "Neu Text-Datei Test erstellt"
+[main 31a114e] Neu Text-Datei Test erstellt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Witz-Folder/Test.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 373 bytes | 373.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   fa4e694..31a114e  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ mv Test.txt NewFolder/
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NewFolder/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "Datei Test in den Ordner NewFolder verschoben"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NewFolder/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "Datei Test in den Ordner NewFolder verschoben"
+[main 8ca9d09] Datei Test in den Ordner NewFolder verschoben
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename Witz-Folder/{ => NewFolder}/Test.txt (100%)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 425 bytes | 425.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   31a114e..8ca9d09  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git re
+rebase         reflog         remote         repack         replace        request-pull   reset          restore        revert
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -e
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -e
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -e
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -e
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git diff Witze.txt
+diff --git a/Witz-Folder/Witze.txt b/Witz-Folder/Witze.txt
+index 7290915..c72b994 100644
+--- a/Witz-Folder/Witze.txt
++++ b/Witz-Folder/Witze.txt
+@@ -1,2 +1,5 @@
+ Erster Witz:
+ Der Lehrer sagt zu Fritzchen: "Nenne mir bitte drei Tiere." Fritzchen antwortet: "Pferdchen, Schäfchen und Mäuschen." Da sagt der Lehrer: "Und jetzt bitte ohne -chen." Fritzchen: "Kanin, Eichhörn und Frett." (von Delfin)
++
++Zweiter Witz:
++Kommt ein Web-Entwickler aufgelöst in die Polizeiwache gestürmt. „Herr Wachtmeister! Mein Auto ist verschwunden!“ „Ach, Sie schon wieder! Es steht immer noch da, wo Sie es geparkt haben! Merken Sie sich endlich: 404 ist Ihr Kennzeichen…“
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Witze.txt
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m "git deff getestet"
+[main 1d7e378] git deff getestet
+ 1 file changed, 3 insertions(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 697 bytes | 697.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/OnurAtesA/ST2023.git
+   8ca9d09..1d7e378  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+[main 5224171] Revert "git deff getestet"
+ 1 file changed, 3 deletions(-)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert main
+[main 7a6b78b] Revert "Revert "git deff getestet""
+ 1 file changed, 3 insertions(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git checkout
+FETCH_HEAD    HEAD          ORIG_HEAD     main          origin/main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git checkout ref file
+error: pathspec 'ref' did not match any file(s) known to git
+error: pathspec 'file' did not match any file(s) known to git
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -a
+NewFolder/ Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -a --amend
+[main 58bf3fe] Revert "Revert "git deff getestet""
+ Date: Sun Jun 25 22:55:48 2023 +0200
+ 1 file changed, 3 insertions(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -ref
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -ref
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert --c
+--cleanup=  --commit
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert -e --edit
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert --edit
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert --edit
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add a Signed-off-by trailer
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git log
+commit 58bf3fe22d90831acb0437cd9c1325e506ecbd86 (HEAD -> main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:55:48 2023 +0200
+
+    Revert "Revert "git deff getestet""
+
+    This reverts commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52.
+
+commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:54 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32 (origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:37 2023 +0200
+
+    git deff getestet
+
+commit 8ca9d0950d444f6643c5b5e960c82f8ac57c721f
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:27:45 2023 +0200
+
+    Datei Test in den Ordner NewFolder verschoben
+
+commit 31a114e352fba33f2879927c68a8cb21be18cced
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:26:28 2023 +0200
+
+    Neu Text-Datei Test erstellt
+
+commit fa4e694515b58f4202ca07ab727f29433158568c
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:23:52 2023 +0200
+
+    Weitere Text-Datei gelöscht
+
+commit f238251be4707782eb8bbf3b1807a3e29d4c9f9b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:20:34 2023 +0200
+
+    Weitere Text-Datei hinzugefügt
+
+commit 50a090965486860e075eb61c515d60222ffbb50e
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+    Nach Pull in die Infodatei Datum hinzugefügt
+
+commit f203c899baea390c0ef2f251cfdae8e439abdbce
+Author: OnurAtesA <76074752+OnurAtesA@users.noreply.github.com>
+Date:   Sun Jun 25 21:59:59 2023 +0200
+
+    Create Infodatei
+
+    Über Browser erstellt
+
+commit 21b9f1d2fc64d2c5c290198651d2a5e71b6cf40b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:57:11 2023 +0200
+
+    Erster Witz hinzugefügt
+
+commit 9b5644cb9a9245d3b681e46eb125a4ea80f256c4
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:50:39 2023 +0200
+
+    Neuer Ordner und Textdatei hinzugefügt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert ^C
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert 1d7e378854c1cba2bc12d4999c51f691f3d84d32
+[main d9e5435] Revert "git deff getestet"
+ 1 file changed, 3 deletions(-)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git diff
+diff       difftool
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git diff Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert 1d7e378854c1cba2bc12d4999c51f691f3d84d32
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git log
+commit d9e5435c73a653301e83f394d622a907d351a8fd (HEAD -> main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 23:01:22 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 58bf3fe22d90831acb0437cd9c1325e506ecbd86
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:55:48 2023 +0200
+
+    Revert "Revert "git deff getestet""
+
+    This reverts commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52.
+
+commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:54 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32 (origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:37 2023 +0200
+
+    git deff getestet
+
+commit 8ca9d0950d444f6643c5b5e960c82f8ac57c721f
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:27:45 2023 +0200
+
+    Datei Test in den Ordner NewFolder verschoben
+
+commit 31a114e352fba33f2879927c68a8cb21be18cced
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:26:28 2023 +0200
+
+    Neu Text-Datei Test erstellt
+
+commit fa4e694515b58f4202ca07ab727f29433158568c
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:23:52 2023 +0200
+
+    Weitere Text-Datei gelöscht
+
+commit f238251be4707782eb8bbf3b1807a3e29d4c9f9b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:20:34 2023 +0200
+
+    Weitere Text-Datei hinzugefügt
+
+commit 50a090965486860e075eb61c515d60222ffbb50e
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+:
+commit d9e5435c73a653301e83f394d622a907d351a8fd (HEAD -> main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 23:01:22 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 58bf3fe22d90831acb0437cd9c1325e506ecbd86
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:55:48 2023 +0200
+
+    Revert "Revert "git deff getestet""
+
+    This reverts commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52.
+
+commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:54 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32 (origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:37 2023 +0200
+
+    git deff getestet
+
+commit 8ca9d0950d444f6643c5b5e960c82f8ac57c721f
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:27:45 2023 +0200
+
+    Datei Test in den Ordner NewFolder verschoben
+
+commit 31a114e352fba33f2879927c68a8cb21be18cced
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:26:28 2023 +0200
+
+    Neu Text-Datei Test erstellt
+
+commit fa4e694515b58f4202ca07ab727f29433158568c
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:23:52 2023 +0200
+
+    Weitere Text-Datei gelöscht
+
+commit f238251be4707782eb8bbf3b1807a3e29d4c9f9b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:20:34 2023 +0200
+
+    Weitere Text-Datei hinzugefügt
+
+commit 50a090965486860e075eb61c515d60222ffbb50e
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git revert 1d7e378854c1cba2bc12d4999c51f691f3d84d32
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git che
+checkout      cherry        cherry-pick
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git cherry-pick ^C
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git cherry-pick 1d7e378854c1cba2bc12d4999c51f691f3d84d32
+[main 16a13d0] git deff getestet
+ Date: Sun Jun 25 22:54:37 2023 +0200
+ 1 file changed, 3 insertions(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m " Zeitreisen ausprobiert. zB. Revert und cherry-pick"
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 753 bytes | 753.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/OnurAtesA/ST2023.git
+   1d7e378..16a13d0  main -> main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Witze.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git commit -m " Zeitreisen ausprobiert. zB. Revert und cherry-pick"
+[main 9b523a5]  Zeitreisen ausprobiert. zB. Revert und cherry-pick
+ 1 file changed, 1 insertion(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git branch
+* main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git branch feature-1
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git branch
+  feature-1
+* main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git che
+checkout      cherry        cherry-pick
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ vi Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir .a
+dir: cannot access '.a': No such file or directory
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -a
+.  ..  NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -t
+Witze.txt  NewFolder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -p
+NewFolder/  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -l
+total 1
+drwxr-xr-x 1 ONUR 197121   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 197121 602 Jun 25 23:15 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -f
+.  ..  NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -b
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -cl
+total 1
+drwxr-xr-x 1 ONUR 197121   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 197121 602 Jun 25 23:15 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -b
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -o
+total 1
+drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 602 Jun 25 23:15 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -os
+total 1
+0 drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+1 -rw-r--r-- 1 ONUR 602 Jun 25 23:15 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -r
+Witze.txt  NewFolder
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -R
+.:
+NewFolder  Witze.txt
+
+./NewFolder:
+Test.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git status
+On branch feature-1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Witze.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git checkout feature-1
+Already on 'feature-1'
+M       Witz-Folder/Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git checkout main
+Switched to branch 'main'
+M       Witz-Folder/Witze.txt
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir -o
+total 1
+drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 602 Jun 25 23:15 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Witze.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git branch
+  feature-1
+* main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+M       Witz-Folder/Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git add .
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git commit -m " Branchne Feature-1 erstellt und weiteren Witz hinzugefügt"
+[feature-1 2f45a05]  Branchne Feature-1 erstellt und weiteren Witz hinzugefügt
+ 1 file changed, 3 insertions(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ dir -o
+total 1
+drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 602 Jun 25 23:15 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (feature-1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir -o
+total 1
+drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 509 Jun 25 23:25 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git branch
+  feature-1
+* main
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$  git merge feature-1 -m "Feature-1 mergen"
+Updating 9b523a5..2f45a05
+Fast-forward (no commit created; -m option ignored)
+ Witz-Folder/Witze.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir
+NewFolder  Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir -o
+total 1
+drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 602 Jun 25 23:28 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git branch feature-1
+fatal: A branch named 'feature-1' already exists.
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ dir -o
+total 1
+drwxr-xr-x 1 ONUR   0 Jun 25 22:26 NewFolder
+-rw-r--r-- 1 ONUR 602 Jun 25 23:28 Witze.txt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ git log
+commit 2f45a0539e4ab1cf2e081e26f1293dc7acea7530 (HEAD -> main, feature-1)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 23:25:15 2023 +0200
+
+     Branchne Feature-1 erstellt und weiteren Witz hinzugefügt
+
+commit 9b523a5c797351529fbbbb33ac91e16fe82d07f2
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 23:08:27 2023 +0200
+
+     Zeitreisen ausprobiert. zB. Revert und cherry-pick
+
+commit 16a13d09e7f4884e700b21ebcafa8405f8863993 (origin/main)
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:37 2023 +0200
+
+    git deff getestet
+
+commit d9e5435c73a653301e83f394d622a907d351a8fd
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 23:01:22 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 58bf3fe22d90831acb0437cd9c1325e506ecbd86
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:55:48 2023 +0200
+
+    Revert "Revert "git deff getestet""
+
+    This reverts commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52.
+
+commit 5224171cacd22f2b189b92c9f3e8bab2dc4bac52
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:54 2023 +0200
+
+    Revert "git deff getestet"
+
+    This reverts commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32.
+
+commit 1d7e378854c1cba2bc12d4999c51f691f3d84d32
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:54:37 2023 +0200
+
+    git deff getestet
+
+commit 8ca9d0950d444f6643c5b5e960c82f8ac57c721f
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:27:45 2023 +0200
+
+    Datei Test in den Ordner NewFolder verschoben
+
+commit 31a114e352fba33f2879927c68a8cb21be18cced
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:26:28 2023 +0200
+
+    Neu Text-Datei Test erstellt
+
+commit fa4e694515b58f4202ca07ab727f29433158568c
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:23:52 2023 +0200
+
+    Weitere Text-Datei gelöscht
+
+commit f238251be4707782eb8bbf3b1807a3e29d4c9f9b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:20:34 2023 +0200
+
+    Weitere Text-Datei hinzugefügt
+
+commit 50a090965486860e075eb61c515d60222ffbb50e
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 22:02:13 2023 +0200
+
+    Nach Pull in die Infodatei Datum hinzugefügt
+
+commit f203c899baea390c0ef2f251cfdae8e439abdbce
+Author: OnurAtesA <76074752+OnurAtesA@users.noreply.github.com>
+Date:   Sun Jun 25 21:59:59 2023 +0200
+
+    Create Infodatei
+
+    Über Browser erstellt
+
+commit 21b9f1d2fc64d2c5c290198651d2a5e71b6cf40b
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:57:11 2023 +0200
+
+    Erster Witz hinzugefügt
+
+commit 9b5644cb9a9245d3b681e46eb125a4ea80f256c4
+Author: s68329 <s68329@bht-berlin.de>
+Date:   Sun Jun 25 21:50:39 2023 +0200
+
+    Neuer Ordner und Textdatei hinzugefügt
+
+ONUR@DESKTOP-A0NUOL8 MINGW64 /c/tmp/ST2023/ST2023/Witz-Folder (main)
+$ ls
